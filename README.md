@@ -49,3 +49,4 @@ To check setting user `git config --list`
 `git init` for create and git folder
 `git status` for status files (untrack, modified, staged)
 `git add <file>` for add files to staged
+`git reset HEAD -- <file>` which effectively reverts git add and prevents the changes to this file from participating in the next commit.
