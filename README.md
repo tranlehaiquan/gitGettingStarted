@@ -60,3 +60,22 @@ git log --stat
 git log --pretty
 ``` 
 - `git commit --amend` edit the last commit with the new one
+- `git checkout -- <file>` to checkout (revert file want)
+- `git remote`
+
+`git remote` To see which remote servers you have configured,
+`git remote -v` To shows you the URLs
+`git remote add [shortname] [url]` to add new remote git repository
+
+- `git fetch [remote-name]` to get data from remote project
+- `git push [remote-name] [branch-name]` to push
+- `git remote rename [remote-name] [remote-newname]`
+- `git remote rm [remote-name]` 
+
+Make git tag:
+Git uses two main types of tags: lightweight and annotated. A lightweight tag is very much like a branch that doesn’t change — it’s just a pointer to a specific commit. Annotated tags, however, are stored as full objects in the Git database. 
+
+`git tag` to show tag
+`git tag -a v0.1 -m [message]` to create an annotated
+After that we can use `git show v0.1`
+
