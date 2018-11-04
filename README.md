@@ -59,3 +59,4 @@ git log -p
 git log --stat
 git log --pretty
 ``` 
+- `git commit --amend` edit the last commit with the new one
