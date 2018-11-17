@@ -79,3 +79,7 @@ Git uses two main types of tags: lightweight and annotated. A lightweight tag is
 `git tag -a v0.1 -m [message]` to create an annotated
 After that we can use `git show v0.1`
 
+## Branch
+
+- `git branch` to list all branch
+- `git checkout <name-brand>` to switch to that branch
