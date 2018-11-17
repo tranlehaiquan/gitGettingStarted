@@ -59,7 +59,7 @@ git log -p
 git log --stat
 git log --pretty
 ``` 
-- `git commit --amend` edit the last commit with the new one
+- `git commit --amend` edit the last commit with the new one, (just `git add <file>` and `git commit --amend`)
 - `git checkout -- <file>` to checkout (revert file want)
 - `git remote`
 
@@ -78,11 +78,8 @@ Git uses two main types of tags: lightweight and annotated. A lightweight tag is
 `git tag` to show tag
 `git tag -a v0.1 -m [message]` to create an annotated
 After that we can use `git show v0.1`
-<<<<<<< HEAD
 
 ## Branch
 
 - `git branch` to list all branch
 - `git checkout <name-brand>` to switch to that branch
-=======
->>>>>>> 12776c34dbc1a91770f3fb84831eab747411209f
