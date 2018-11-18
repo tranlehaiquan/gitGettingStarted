@@ -82,4 +82,6 @@ After that we can use `git show v0.1`
 ## Branch
 
 - `git branch` to list all branch
-- `git checkout <name-brand>` to switch to that branch
+- `git checkout <name-branch>` to switch to that branch
+- `git branch -d <name-branch>` to deleted branch
+- `git branch --merged` to figure out branchs merged, `git branch --no-merged` list branchs didn't merge
